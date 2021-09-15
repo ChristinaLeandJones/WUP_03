@@ -48,6 +48,12 @@ favstats(alcohol~Seat,data=ucdavis1)
 model1 <- aov(alcohol~Seat,data=davisdata)
 summary.aov(model1)
 ```
+```{r}
+plot(TukeyHSD(model1))
+```
+
+We have a p value of 0.000116 so we conclude we reject the $H_0$;there is a differendc with where you sit and the alcohol that is consumed 
+
 
 ## Conclusions
 
