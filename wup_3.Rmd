@@ -48,6 +48,8 @@ This boxplot shows the same data of students in back row drink significantly mor
 ```{r}
 favstats(alcohol~Seat,data=ucdavis1)
 ```
+The table shows that the mean (average) of students that sit in the back row is at 8.555. The students that sit in the front and middle do not exceed 3.33. These averages are very different. The students that sit in the back are much more likely to be alcohol consumers. 
+
 
 
 ## Inferential Tests  
@@ -59,7 +61,7 @@ summary.aov(model1)
 plot(TukeyHSD(model1))
 ```
 
-We have a p value of 0.000116 so we conclude we reject the $H_0$;there is a difference with where you sit and the alcohol that is consumed 
+We have a p value of 0.000116 so we conclude that we reject the $H_0$;there is a difference with where you sit and the alcohol that is consumed 
 
 
 ## Conclusions
