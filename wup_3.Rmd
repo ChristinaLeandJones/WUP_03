@@ -61,7 +61,7 @@ summary.aov(model1)
 plot(TukeyHSD(model1))
 ```
 
-We have a p value of 0.000116 so we conclude that we reject the $H_0$;there is a difference with where you sit and the alcohol that is consumed. The tukey test show that the confidence interval contains 0 for Middle-Front. We have no evidence of any difference of alcohol consumption between the students that sit in the middle and the students that sit in the front. There is a significant difference between the confidence level for  does not pass through 0 for the students that    
+We have a p value of 0.000116 so we conclude that we reject the $H_0$;there is a difference with where you sit and the alcohol that is consumed. The tukey test show that the confidence interval contains 0 for Middle-Front. We have no evidence of any difference of alcohol consumption between the students that sit in the middle and the students that sit in the front. There is a significant difference between the confidence level for tukey test. The line does not pass through 0 for the students that front-back.The middle-back line does not pass through the 0 showing a significant as well.      
 
 
 ## Conclusions
